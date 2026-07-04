@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais-formularios</title>
+</head>
+<body>
+    <h1>Mais sobre Formularios</h1>
+    <form action="processa.html">
+        <h2>Label</h2>
+        <!--
+            label - legenda para item da interface
+            for - para
+        -->
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="text" name="senha" id="senha">
+        <br>
+        <h2>Mais elementos de formulários</h2>
+
+        Gênero:<br>
+        <input type="radio" name="genero" value="feminino" id="feminino">
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" name="genero" value="masculino" id="masculino">
+        <label for="masculino">Masculino</label>
+
+        <br><br>
+        Estilo musical:<br>
+        <input type="checkbox" name="estilo" value="rock" id="rock">
+        <label for="rock">Rock</label>
+
+        <input type="checkbox" name="estilo" value="metal" id="metal">
+        <label for="metal">Metal</label>
+
+        <input type="checkbox" name="estilo" value="numetal" id="numetal">
+        <label for="numetal">NuMetal</label>
+        <br><br>
+
+         Estado:
+        <select name="estado">
+            <option value="">selecionar..</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="ce">Ceará</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="cadastrar">
+    </form>
+    
+</body>
+</html>
