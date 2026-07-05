@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicios de formulario</title>
+</head>
+<body>
+    <h1>Exercícios de formulários</h1>
+    <!--
+        fieldset- cria uma área que reúne elementos que pertencem ao mesmo grupo.
+        legend- funciona como o título do <fieldset>.
+    -->
+
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome"><br>
+
+            <label for="email">Email</label><br>
+            <input type="text" name="nome" id="email"><br>
+
+            <input type="checkbox" name="receber_email" value="ativado">
+            <label>Quero receber esse e-mail</label><br><br>
+
+            <label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações adicionais</legend>
+
+            <input type="radio" name="pessoa_fisica" id="pf">
+            <label for="pf">Pessoa Física</label>
+
+            <input type="radio" name="pessoa_juridica" id="pj">
+            <label for="pj">Pessoa Jurídica</label>
+        </fieldset><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+    
+</body>
+</html>
